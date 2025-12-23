@@ -2,7 +2,6 @@ export const ignoredDirs = [
 	'backend',
 	'src/files',
 	'node_modules',
-	'dist',
 	'.git',
 	'src/styles/fonts'
 ]
