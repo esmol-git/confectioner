@@ -1,0 +1,364 @@
+<script type="module" src="@components/pages/index/index.js"></script>
+<link rel="stylesheet" href="@components/pages/index/index.scss">
+
+<main class="page page--index">
+	<!-- Hero секция -->
+	<section id="section-1" data-fls-watcher="navigator" data-fls-watcher-margin="0px" class="section section--hero">
+		<div class="section__bg">
+			<img src="@img/hero-bg.jpg" alt="Фоновая фотография кондитерских изделий" class="section__bg-image">
+		</div>
+		<div class="section__overlay"></div>
+		<div class="section__container">
+			<div class="section__content" data-fls-watcher data-fls-watcher-once>
+				<div class="section__badge" data-fls-watcher data-fls-watcher-once data-fls-month-badge>Бронируйте в <span data-fls-month-name>Сентябре</span></div>
+				<h1 class="section__title" data-fls-splittype data-fls-gsap>~ Курсы кондитера он-лайн от Иванова Ивана Ивановича ~<br>для всех желающих</h1>
+				<p class="section__text" data-fls-watcher data-fls-watcher-once>Оставьте заявку на сайте и получите скидку 10% на все мои услуги прямо сейчас. Предложение действует только до конца месяца!</p>
+				<div class="section__button-wrapper" data-fls-watcher data-fls-watcher-once>
+					<button type="button" data-fls-button data-fls-popup-link="form-popup" class="section__button" aria-label="Оставить заявку на курсы">Оставить заявку</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Секция "О нас" -->
+	<section id="section-about" data-fls-watcher="navigator" data-fls-watcher-margin="0px" class="section section--about">
+		<div class="section__container">
+			<div class="about">
+				<h2 class="about__title" data-fls-splittype data-fls-gsap>~ Давайте знакомиться ~</h2>
+				<div class="about__content" data-fls-grid>
+					<div class="about__image-wrapper" data-fls-grid-col="6" data-fls-grid-col-tablet="12" data-fls-watcher data-fls-watcher-once>
+						<div class="about__image">
+							<img src="@img/about-image.jpeg" alt="Мои кондитерские изделия" class="about__image-img">
+						</div>
+					</div>
+					<div class="about__text-wrapper" data-fls-grid-col="6" data-fls-grid-col-tablet="12" data-fls-watcher data-fls-watcher-once>
+						<div class="about__text">
+							<h3 class="about__text-title">Моя миссия</h3>
+							<p class="about__text-paragraph">Моя миссия — радовать и удивлять клиентов качеством выполненных мной работ, поэтому я гарантированно могу удовлетворить все ваши желания и требования. Я гарантирую и отвечаю за качество выполненных работ.</p>
+							<p class="about__text-paragraph">Если вам требуется качественное выполнение работ или профессиональный специалист, то обязательно обращайтесь ко мне уже сейчас.</p>
+							<div class="about__button-wrapper">
+								<button type="button" data-fls-button data-fls-popup-link="form-popup" class="about__button">Связаться со мной</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Секция преимуществ -->
+	<section id="section-advantages" data-fls-watcher="navigator" data-fls-watcher-margin="0px" class="section section--advantages">
+		<div class="section__container">
+			<div class="advantages">
+				<h2 class="advantages__title" data-fls-splittype data-fls-gsap>Мои преимущества</h2>
+				<div class="advantages__grid" data-fls-grid>
+					<!-- Преимущество 1 -->
+					<div class="advantages__item" data-fls-grid-col="4" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="advantages__icon">
+							<div class="advantages__icon-placeholder"></div>
+						</div>
+						<h3 class="advantages__item-title">Опытный мастер</h3>
+						<p class="advantages__item-text">Я оказываю профессиональное обучение с многолетним опытом работы в престижных кондитерских и ресторанах</p>
+					</div>
+
+					<!-- Преимущество 2 -->
+					<div class="advantages__item" data-fls-grid-col="4" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="advantages__icon">
+							<div class="advantages__icon-placeholder"></div>
+						</div>
+						<h3 class="advantages__item-title">Практические занятия</h3>
+						<p class="advantages__item-text">Каждое занятие включает практическую работу. Вы создаете собственные десерты под моим руководством</p>
+					</div>
+
+					<!-- Преимущество 3 -->
+					<div class="advantages__item" data-fls-grid-col="4" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="advantages__icon">
+							<div class="advantages__icon-placeholder"></div>
+						</div>
+						<h3 class="advantages__item-title">Современное оборудование</h3>
+						<p class="advantages__item-text">Я работаю на профессиональном оборудовании и использую только качественные ингредиенты для создания идеальных десертов</p>
+					</div>
+
+					<!-- Преимущество 4 -->
+					<div class="advantages__item" data-fls-grid-col="4" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="advantages__icon">
+							<div class="advantages__icon-placeholder"></div>
+						</div>
+						<h3 class="advantages__item-title">Сертификат по окончании</h3>
+						<p class="advantages__item-text">После прохождения курса вы получаете официальный сертификат, подтверждающий ваши навыки в кондитерском искусстве</p>
+					</div>
+
+					<!-- Преимущество 5 -->
+					<div class="advantages__item" data-fls-grid-col="4" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="advantages__icon">
+							<div class="advantages__icon-placeholder"></div>
+						</div>
+						<h3 class="advantages__item-title">Гибкий график</h3>
+						<p class="advantages__item-text">Выбирайте удобное время для занятий. Я предлагаю утренние, дневные и вечерние группы для максимального удобства</p>
+					</div>
+
+					<!-- Преимущество 6 -->
+					<div class="advantages__item" data-fls-grid-col="4" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="advantages__icon">
+							<div class="advantages__icon-placeholder"></div>
+						</div>
+						<h3 class="advantages__item-title">Поддержка после курса</h3>
+						<p class="advantages__item-text">Я не бросаю вас после окончания обучения. Консультации, рецепты и поддержка всегда доступны</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Секция Портфолио -->
+	<section id="section-portfolio" data-fls-watcher="navigator" data-fls-watcher-margin="0px" class="section section--portfolio">
+		<div class="section__container">
+			<div class="portfolio">
+				<h2 class="portfolio__title" data-fls-splittype data-fls-gsap>Портфолио</h2>
+				<p class="portfolio__subtitle" data-fls-watcher data-fls-watcher-once>Мои лучшие работы и достижения в кондитерском искусстве</p>
+				<div class="portfolio__grid" data-fls-grid>
+					<!-- Карточка 1 -->
+					<div class="portfolio__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="portfolio__image">
+							<img src="@img/portfolio/portfolio-1.jpg" alt="Клубничный торт" class="portfolio__image-img">
+							<div class="portfolio__overlay">
+								<div class="portfolio__info">
+									<h3 class="portfolio__item-title">Клубничный торт "Нежность"</h3>
+									<p class="portfolio__item-text">Многослойный бисквитный торт с клубничным кремом и свежими ягодами. Нежное сочетание воздушного бисквита, ванильного крема и сочной клубники создает неповторимый вкус.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Карточка 2 -->
+					<div class="portfolio__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="portfolio__image">
+							<img src="@img/portfolio/portfolio-2.jpg" alt="Капкейки с розами" class="portfolio__image-img">
+							<div class="portfolio__overlay">
+								<div class="portfolio__info">
+									<h3 class="portfolio__item-title">Капкейки "Розовый сад"</h3>
+									<p class="portfolio__item-text">Изысканные капкейки, украшенные ручной лепкой из мастики в виде роз. Каждый цветок выполнен с особой тщательностью и вниманием к деталям.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Карточка 3 -->
+					<div class="portfolio__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="portfolio__image">
+							<img src="@img/portfolio/portfolio-3.jpg" alt="Клубничный шорткейк" class="portfolio__image-img">
+							<div class="portfolio__overlay">
+								<div class="portfolio__info">
+									<h3 class="portfolio__item-title">Клубничный шорткейк</h3>
+									<p class="portfolio__item-text">Классический английский десерт с прослойками бисквита, взбитых сливок и свежей клубники. Идеальное сочетание сладости и свежести.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Карточка 4 -->
+					<div class="portfolio__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="portfolio__image">
+							<img src="@img/portfolio/portfolio-4.jpg" alt="Малиновый чизкейк" class="portfolio__image-img">
+							<div class="portfolio__overlay">
+								<div class="portfolio__info">
+									<h3 class="portfolio__item-title">Малиновый чизкейк</h3>
+									<p class="portfolio__item-text">Нежный чизкейк с малиновым топпингом на песочной основе. Кремовая текстура и яркий ягодный акцент создают гармоничный вкусовой букет.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Карточка 5 -->
+					<div class="portfolio__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="portfolio__image">
+							<img src="@img/portfolio/portfolio-5.jpg" alt="Малиновые муссы" class="portfolio__image-img">
+							<div class="portfolio__overlay">
+								<div class="portfolio__info">
+									<h3 class="portfolio__item-title">Индивидуальные малиновые муссы</h3>
+									<p class="portfolio__item-text">Воздушные муссовые десерты с малиной в элегантной подаче. Легкая текстура и насыщенный ягодный вкус делают их идеальным завершением трапезы.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Карточка 6 -->
+					<div class="portfolio__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="portfolio__image">
+							<img src="@img/portfolio/portfolio-6.jpg" alt="Красный бархат" class="portfolio__image-img">
+							<div class="portfolio__overlay">
+								<div class="portfolio__info">
+									<h3 class="portfolio__item-title">Торт "Красный бархат"</h3>
+									<p class="portfolio__item-text">Знаменитый американский торт с яркими красными коржами и крем-чизом. Многослойная структура и контраст цветов создают визуальный и вкусовой эффект.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Карточка 7 -->
+					<div class="portfolio__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="portfolio__image">
+							<img src="@img/portfolio/portfolio-7.jpg" alt="Цветочные капкейки" class="portfolio__image-img">
+							<div class="portfolio__overlay">
+								<div class="portfolio__info">
+									<h3 class="portfolio__item-title">Капкейки "Цветочная феерия"</h3>
+									<p class="portfolio__item-text">Коллекция капкейков с декоративными цветами из мастики. Разнообразие цветов и техник декора демонстрирует мастерство кондитерского искусства.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Карточка 8 -->
+					<div class="portfolio__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="portfolio__image">
+							<img src="@img/portfolio/portfolio-8.jpg" alt="Клубничный чизкейк" class="portfolio__image-img">
+							<div class="portfolio__overlay">
+								<div class="portfolio__info">
+									<h3 class="portfolio__item-title">Клубничный чизкейк "Лето"</h3>
+									<p class="portfolio__item-text">Цельный чизкейк с клубничным топпингом и соусом. Свежие ягоды и нежный крем-чиз создают освежающий летний десерт, который радует глаз и вкус.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Секция Услуги -->
+	<section id="section-services" data-fls-watcher="navigator" data-fls-watcher-margin="0px" class="section section--services">
+		<div class="section__container">
+			<div class="services">
+				<h2 class="services__title" data-fls-splittype data-fls-gsap>Вы можете сразу выбрать <span class="services__title-accent">пакет занятий</span></h2>
+				<p class="services__subtitle" data-fls-watcher data-fls-watcher-once>Добавлю одно бесплатное занятие, если вы покупаете пакет без вводного урока</p>
+				<div class="services__grid" data-fls-grid>
+					<!-- Пакет 1 -->
+					<div class="services__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="services__card">
+							<div class="services__image">
+								<img src="@img/services/service-1.jpg" alt="Пакет из 8 занятий по кондитерскому искусству" class="services__image-img">
+							</div>
+							<div class="services__card-content">
+								<div class="services__card-header">
+									<h3 class="services__card-title">8 занятий (руб./мес)</h3>
+									<p class="services__card-subtitle">Пакет услуг 1</p>
+									<p class="services__card-option">Опция 4</p>
+								</div>
+								<div class="services__card-price">
+									<span class="services__price-value">4000</span>
+									<span class="services__price-currency">руб.</span>
+								</div>
+								<button type="button" data-fls-button data-fls-popup-link="order-popup" data-service-package="8" data-service-price="4000" class="services__button">Выбрать</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- Пакет 2 -->
+					<div class="services__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="services__card">
+							<div class="services__image">
+								<img src="@img/services/service-2.jpg" alt="Пакет из 16 занятий по кондитерскому искусству" class="services__image-img">
+							</div>
+							<div class="services__card-content">
+								<div class="services__card-header">
+									<h3 class="services__card-title">16 занятий (руб./мес)</h3>
+									<p class="services__card-subtitle">Пакет услуг 2</p>
+									<p class="services__card-option">Опция 4</p>
+								</div>
+								<div class="services__card-price">
+									<span class="services__price-value">8000</span>
+									<span class="services__price-currency">руб.</span>
+								</div>
+								<button type="button" data-fls-button data-fls-popup-link="order-popup" data-service-package="16" data-service-price="8000" class="services__button">Выбрать</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- Пакет 3 (Рекомендуемый) -->
+					<div class="services__item services__item--featured" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="services__card">
+							<div class="services__image">
+								<img src="@img/services/service-3.jpg" alt="Пакет из 24 занятий по кондитерскому искусству - рекомендуемый" class="services__image-img">
+							</div>
+							<div class="services__card-content">
+								<div class="services__card-header">
+									<h3 class="services__card-title">24 занятия (руб./мес)</h3>
+									<p class="services__card-subtitle">Пакет услуг 3</p>
+									<p class="services__card-option services__card-option--special">Только сегодня!</p>
+								</div>
+								<div class="services__card-price">
+									<span class="services__price-value">12000</span>
+									<span class="services__price-currency">руб.</span>
+								</div>
+								<button type="button" data-fls-button data-fls-popup-link="order-popup" data-service-package="24" data-service-price="12000" class="services__button services__button--featured">Выбрать</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- Пакет 4 -->
+					<div class="services__item" data-fls-grid-col="3" data-fls-grid-col-tablet="6" data-fls-grid-col-mobile="12" data-fls-watcher data-fls-watcher-once>
+						<div class="services__card">
+							<div class="services__image">
+								<img src="@img/services/service-4.jpg" alt="Пакет из 32 занятий по кондитерскому искусству" class="services__image-img">
+							</div>
+							<div class="services__card-content">
+								<div class="services__card-header">
+									<h3 class="services__card-title">32 занятия (руб./мес)</h3>
+									<p class="services__card-subtitle">Пакет услуг 4</p>
+									<p class="services__card-option">Опция 4</p>
+								</div>
+								<div class="services__card-price">
+									<span class="services__price-value">16000</span>
+									<span class="services__price-currency">руб.</span>
+								</div>
+								<button type="button" data-fls-button data-fls-popup-link="order-popup" data-service-package="32" data-service-price="16000" class="services__button">Выбрать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Секция Контакты -->
+	<section id="section-contacts" data-fls-watcher="navigator" data-fls-watcher-margin="0px" class="section section--contacts">
+		<div class="section__container">
+			<div class="contacts">
+				<h2 class="contacts__title" data-fls-splittype data-fls-gsap>~ Связаться со мной ~</h2>
+				<div class="contacts__divider"></div>
+				<div class="contacts__content" data-fls-grid data-fls-watcher data-fls-watcher-once>
+					<div class="contacts__image-wrapper" data-fls-grid-col="6" data-fls-grid-col-tablet="12">
+						<div class="contacts__image">
+							<img src="@img/contact-image.jpg" alt="Мои кондитерские изделия" class="contacts__image-img">
+						</div>
+					</div>
+					<div class="contacts__form-wrapper" data-fls-grid-col="6" data-fls-grid-col-tablet="12">
+						<div class="contacts__form">
+							<form data-fls-form="contact" class="form">
+								<div class="form__item">
+									<label class="form__label">Ваше имя</label>
+									<input data-fls-input data-fls-form-validatenow required autocomplete="off" type="text" name="name" data-fls-form-errtext="Введите имя" placeholder="Введите имя" class="input">
+								</div>
+								<div class="form__item">
+									<label class="form__label">Ваш email</label>
+									<input data-fls-input data-fls-form-validatenow required autocomplete="off" type="email" name="email" data-fls-form-errtext="Введите корректный email" placeholder="Введите корректный email" class="input">
+								</div>
+								<div class="form__item">
+									<label class="form__label">Ваш телефон</label>
+									<input data-fls-input data-fls-input-mask="+7(999) 999-99-99" data-fls-form-validatenow required autocomplete="off" type="tel" name="phone" data-fls-form-errtext="Введите телефон" placeholder="+7(___) ___-__-__" class="input">
+								</div>
+								<div class="form__item">
+									<label class="form__label">Сообщение</label>
+									<textarea data-fls-input data-fls-input-autoheight autocomplete="off" name="message" placeholder="Введите ваше сообщение" class="input input--textarea" rows="4"></textarea>
+								</div>
+								<button type="submit" class="button button--submit">
+									<span>Отправить</span>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
