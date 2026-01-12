@@ -722,6 +722,35 @@ body {
   text-decoration: none;
   transition: color 0.3s ease;
   white-space: nowrap;
+}
+.footer__bottom {
+  text-align: center;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1.875rem;
+}
+.footer__documents {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer__document-link {
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.footer__document-link:active, .footer__document-link:focus {
+  color: #e86192;
+}
+.footer__document-separator {
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.5);
 }input[type=text],
 input[type=email],
 input[type=tel],
@@ -2958,6 +2987,14 @@ textarea.input {
   }
 }
 
+@media (min-width: 48rem){
+  .footer__bottom {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
+
 @media (width > 75em){
   [data-fls-grid] {
     gap: 1.75rem;
@@ -2976,6 +3013,10 @@ textarea.input {
   }
   .footer__menu-link:hover {
     color: #fff;
+  }
+  .footer__document-link:hover {
+    color: #e86192;
+    text-decoration: underline;
   }
   .about__button:hover {
     transform: translateY(-0.125rem);
