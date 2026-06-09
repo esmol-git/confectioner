@@ -14,10 +14,20 @@
 	</if>
 	<if condition="'[[description]]' !== ''">
 		<meta name="description" content="[[description]]">
+		<if condition="'[[url]]' !== ''">
+			<link rel="canonical" href="[[url]]">
+		</if>
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="[[title]]">
 		<meta property="og:description" content="[[description]]">
+		<if condition="'[[url]]' !== ''">
+			<meta property="og:url" content="[[url]]">
+		</if>
+		<if condition="'[[ogImage]]' !== ''">
+			<meta property="og:image" content="[[ogImage]]">
+			<meta name="twitter:image" content="[[ogImage]]">
+		</if>
 		<!-- Twitter -->
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:title" content="[[title]]">
